@@ -1,0 +1,50 @@
+
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>加载更多</title>
+  <style>
+    a{
+      text-decoration: none;
+    }
+    ul,
+    li {
+      margin: 0;
+      padding: 0;
+    }
+    .ct li {
+      width: 100%;
+      list-style: none;
+      padding: 10px;
+      margin-top: 10px;
+      cursor: pointer;
+      border: 1px solid #ccc;
+    }
+    .ct li:hover {
+      background-color: pink;
+      color: #fff;
+    }
+    #btn {
+      display:block;
+      border-radius: 5px;
+      text-align: center;
+      width: 120px;
+      padding: 10px;
+      margin: 10px auto;
+      border: 1px solid #e4393c;
+      color: palevioletred;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+<ul class="ct">
+  <li>item 1</li>
+  <li>item 2</li>
+</ul>
+<a id="btn" href="#">Load More</a>
+<script src="loadMore.js"></script>
+</body>
+</html>
